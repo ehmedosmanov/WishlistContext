@@ -1,0 +1,14 @@
+.wishlist-product {
+  border: 1px solid #ccc;
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  .wishlist-img {
+    width: 35%;
+  }
+  .remove {
+    cursor: pointer;
+    font-size: 28px;
+  }
+}

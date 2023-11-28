@@ -1,0 +1,29 @@
+.sidebar {
+  h1 {
+    text-align: center;
+    margin: 12px 0;
+  }
+  overflow: auto;
+  position: fixed;
+  top: 0;
+  right: 0;
+  border: 1px solid #000;
+  background-color: #fff;
+  width: 450px;
+  min-height: 100vh;
+  transform: translateX(500px);
+  transition: all 0.3s;
+  .wishlist-products {
+    margin-top: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 12px;
+  }
+}
+
+.open {
+  transform: translateX(0px);
+  transition: all 0.3s;
+}
